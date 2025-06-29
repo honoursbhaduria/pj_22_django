@@ -5,12 +5,16 @@ A shopping cart allows users to collect and manage items they want to purchase b
 
 Prerequisites: 
 
->Django Introduction and Installation 
->Creating a Project
->creation of an app 
->then an venv 
+>>creat an venv 
+>>Django Introduction and Installation
+>>Creating a Project 
+>>creation of an app 
 
 ```bash
+python -m venv venv
+venv/scripts/activate
+source venv/bin/activate  # for linux user 
+# then start working with 
 django-admin startproject ecommerce
 cd ecommerce
 python manage.py startapp cart
